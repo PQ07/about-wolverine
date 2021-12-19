@@ -1,0 +1,133 @@
+
+body{
+	max-width: 1000px;
+	margin: auto;
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+#header{
+	padding: 47px 0px;
+	border-bottom: 2px solid;
+
+}
+
+h4{ 
+	font: italic small-caps bolder 28px arial,sans-serif;
+
+}
+div{
+	border: 1px solid black;
+	margin-top: 5px;
+	padding: 15px;
+	
+}
+
+#right{
+	float: right;
+	padding: 0px;
+	border: none;
+}
+#left{
+	float: left;
+	padding: 0px;
+	border: none;
+}
+
+/*#size img {
+	height: 550px;
+}*/
+
+
+
+
+#image{
+	float: left;
+	height: 525px;
+	padding:  0px 20px 20px 20px;
+}
+
+#identity{
+	overflow: auto;
+
+
+}
+#background-image{
+	background-image: url("wolv2.jpg");
+	background-size: cover;
+	height: 350px;
+	weidth: 250px;
+	padding-top: 50px;
+	color: #fff;
+	margin-top: :25px;
+
+}
+
+#content{
+	background-color: rgba(0,0,0,0.6);
+	max-width: 1000px;
+	padding: 30px 20px;
+	margin-top: 20px;
+}
+table{
+	border: 1px solid;
+	width: 100%;
+	border-collapse: collapse;
+	/*display: block;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
+th,td{
+	/*padding: 10px;
+	padding-right: 0px;
+	padding-top: 0px;*/
+	text-align: center;
+	border: 1px solid #a4a4a4;
+	height: 40px;
+	padding-right: 15px;
+}
+
+th{
+	text-align: center;
+	background-color: #ececec;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo{
+	float: left;
+	/*height: 20px;*/
+}
+
+li a{
+	display: block;
+	color: #666;
+	padding: 5px 16px;
+	text-decoration: none;
+	list-style: none;
+	float: right;
+}
+
+@media (min-width: 320px) {	.container{width: 320px;}}
+@media (min-width: 481px) {	.container{width: 481px;}}
+@media (min-width: 641px) {	.container{width: 641px;}}
+@media (min-width: 961px) {	.container{width: 961px;}}
+@media (min-width: 1000px) {	.container{width: 1000px;}}
+
+@media (max-width: 481px) {
+	.box{
+		width: 100%;
+	}
+	#image{
+		width: 100%;
+	}
+	h2{
+		text-align: center;
+	}
+}
+
